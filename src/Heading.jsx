@@ -36,10 +36,10 @@ function Heading(props) {
             <div className="row menu">
                 <div className="col-11">
                     <ul>
-                        <li>صفحه اصلی</li>
-                        <li>صفحه اصلی</li>
-                        <li>صفحه اصلی</li>
-                        <li>صفحه اصلی</li>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">صفحه اصلی</a></li>
                     </ul>
                 </div>
                 <div className="col-1">

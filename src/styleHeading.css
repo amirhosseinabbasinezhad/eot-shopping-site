@@ -43,9 +43,9 @@ float: right;
 
 }
 .menu{
-  margin-top:15px;
+  margin-top:8px;
   color: white;
-  height: 60px;
+  height: 50px;
 }
 .menu :hover{
  
@@ -60,3 +60,24 @@ background-color:#00253c ;
 #button-addon1 :hover{
     color: #009de0;
   }
+.menu ul{
+
+}
+.menu ul li{
+
+  float: right;
+  list-style: none;
+  display: inline-block;
+
+}
+.menu ul li a {
+  padding: 15px;
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu ul li :hover{
+  background-color: #e2e2e23d;
+  border-top: 8px solid #00253c;
+
+}
