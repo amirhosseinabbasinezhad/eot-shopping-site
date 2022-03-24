@@ -1,6 +1,6 @@
-import { faUser ,faCartShopping,faBars } from "@fortawesome/free-solid-svg-icons";
+import { faUser ,faCartShopping,faBars,faSearch } from "@fortawesome/free-solid-svg-icons";
 import mylogo from './mylogo.svg'
-import { Button } from 'react-bootstrap';
+import { InputGroup,FormControl,Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 import './styleHeading.css';
@@ -14,14 +14,20 @@ function Heading(props) {
                         <FontAwesomeIcon className="ficon" icon={faUser}size="2x" />
                         <FontAwesomeIcon className="ficon" icon={faCartShopping}size="2x" />
                     </div>
-                    <div className="searchbar col-8">
-                        <form action="#">
-                            <input type="text" />
-                            <Button variant="primary">Primary</Button>
-                        </form>
+                    <div className="col-2"></div>
+                    <div className="searchbar col-5">
+                        <InputGroup className="mb-3">
+                            <FormControl
+                              aria-label="Example text with button addon"
+                              aria-describedby="basic-addon1"
+                            />
+                            <Button variant="outline-light" id="button-addon1">
+                            <FontAwesomeIcon className="searchicon" icon={faSearch}size="lg" />
+                            </Button>
+                        </InputGroup>
                     </div>
                 </div>
-                <div className="line-bottom-right"></div>
+                <div className="line-bottom-right" id="line-bottom-right"></div>
             </div>
             
             <div className="mainlogo col-1">
