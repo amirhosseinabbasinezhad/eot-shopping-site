@@ -1,5 +1,6 @@
 import { faUser ,faCartShopping,faBars,faSearch } from "@fortawesome/free-solid-svg-icons";
 import mylogo from './mylogo.svg'
+import Menu from './Menu'
 import { InputGroup,FormControl,Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
@@ -34,19 +35,7 @@ function Heading(props) {
                 <img src={mylogo} alt="React Logo" />
             </div>
             <div className="row menu">
-                <div className="col-11">
-                    <ul>
-                    <li><a href="#">صفحه اصلی</a></li>
-                    <li><a href="#">صفحه اصلی</a></li>
-                    <li><a href="#">صفحه اصلی</a></li>
-                    <li><a href="#">صفحه اصلی</a></li>
-                    </ul>
-                </div>
-                <div className="col-1">
-                    <div className="openbtn" onClick={props.onClick}>
-                        <FontAwesomeIcon icon={faBars} size="xl" />
-                    </div>
-                </div>
+                <Menu onClick={props.onClick}/>
             </div>
         </div>
     </div>
