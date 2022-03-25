@@ -1,7 +1,10 @@
 import Heading from "./Heading";
 import Side from "./Side";
+import Body from "./Body";
 import React, { useState} from 'react';
-
+import './styleHeading.css';
+import './styleSidebar.css';
+import './styleProduct.css';
 function Content() {
   const [showSide,setShowSide]=useState(false)
   function openNav(){
@@ -26,6 +29,7 @@ function Content() {
    <div className="col-12">
     <div id="main">
       <Heading onClick={openNav} />
+      <Body />
     </div>
     {showSide && <Side onClick={closeNav} />}
    </div>

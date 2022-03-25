@@ -1,7 +1,5 @@
 
-import './styleSidebar.css';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Side(props) {
     return (<>
       <div id="mySidebar" className="sidebar">

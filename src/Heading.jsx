@@ -1,10 +1,10 @@
-import { faUser ,faCartShopping,faBars,faSearch } from "@fortawesome/free-solid-svg-icons";
-import mylogo from './mylogo.svg'
-import Menu from './Menu'
-import { InputGroup,FormControl,Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser ,faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import mylogo from './mylogo.svg'
+import Menu from './Menu';
+import SearchBar from "./SearchBar";
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
-import './styleHeading.css';
+
 function Heading(props) {
     return (<>
     <div className="header col-12" >
@@ -17,15 +17,7 @@ function Heading(props) {
                     </div>
                     <div className="col-2"></div>
                     <div className="searchbar col-5">
-                        <InputGroup className="mb-3">
-                            <FormControl
-                              aria-label="Example text with button addon"
-                              aria-describedby="basic-addon1"
-                            />
-                            <Button variant="outline-light" id="button-addon1">
-                            <FontAwesomeIcon className="searchicon" icon={faSearch}size="lg" />
-                            </Button>
-                        </InputGroup>
+                        <SearchBar />
                     </div>
                 </div>
                 <div className="line-bottom-right" id="line-bottom-right"></div>
