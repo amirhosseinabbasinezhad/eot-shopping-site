@@ -1,10 +1,10 @@
-import Heading from "./Heading";
-import Side from "./Side";
-import Body from "./Body";
+import Heading from "./Heading/Heading";
+import Side from "./SideBar/Side";
+import Body from "./Body/Body";
 import React, { useState} from 'react';
-import './styleHeading.css';
-import './styleSidebar.css';
-import './styleProduct.css';
+import './Heading/styleHeading.css';
+import './SideBar/styleSidebar.css';
+import './Body/styleProduct.css';
 function Content() {
   const [showSide,setShowSide]=useState(false)
   function openNav(){
