@@ -1,6 +1,15 @@
 .Main-Body {
-    padding-top: 25px;
+    padding-top: 5px;
 }
+.services img{
+  width: 100%;
+
+}
+.image-slide{
+  width: 100%;
+  
+}
+
 .products-slide{
     background-color: #009de0;
     
@@ -48,18 +57,19 @@
     float: right;
     padding: 5px 0;
   }
-  .contentbox1 a.add_to_cart {
+
+  .addicon{
     color: #ff533c;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #ff533c;
     float: left;
     background: #fff;
-  border-radius: 3px;
-  padding: 5px 4px;
+    border-radius: 3px;
+    padding: 5px 4px;
   }
-  .contentbox1 a.add_to_cart:hover{
+  .addicon:hover{
     color: #fff;
     background: #ff6f53;
-  text-decoration: none;
+    text-decoration: none;
+  }
   
-  }  

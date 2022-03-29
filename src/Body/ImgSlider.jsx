@@ -1,71 +1,35 @@
+import InfiniteCarousel from 'react-leaf-carousel';
+import googleHome1 from './images/googlehome.png';
+import googleHome2 from './images/homegoogle.png';
+import googleHome3 from './images/googleassistant.png';
+import alexa from './images/alexa.png';
 function ImgSlidr() {
-    return ( <>
+  return (<div className="image-slide">
     <InfiniteCarousel
-    breakpoints={[
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-
-      
-    ]}
-    dots={false}
-    showSides={true}
-    sidesOpacity={.5}
-    sideSize={0.1}
-    slidesToScroll={1}
-    slidesToShow={6}
-    scrollOnDevice={true}
-  >
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    <div>
-    <Product />
-    </div>
-    </InfiniteCarousel>
-    </div>
-     );
-}
-    </> );
+  dots={true}
+  showSides={true}
+  sidesOpacity={0}
+  sideSize={0}
+  slidesToScroll={1}
+  slidesToShow={1}
+  scrollOnDevice={true}
+  autoCycle={true}
+>
+  <div>
+    <img src={googleHome1} alt="" />
+  </div>
+  <div>
+    <img src={googleHome2} alt="" />
+  </div>
+  <div>
+    <img src={googleHome3} alt="" />
+  </div>
+  <div>
+    <img src={alexa} alt="" />
+  </div>
+  </InfiniteCarousel>
+  </div>
+   );
 }
 
 export default ImgSlidr;

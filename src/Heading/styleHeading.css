@@ -30,6 +30,7 @@
 }
 .ficon :hover{
   color: #009de0;
+  transition: 0.3s;
 
 }
 .fr{

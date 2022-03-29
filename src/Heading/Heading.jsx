@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser ,faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faUser ,faCartShopping ,faRightToBracket} from "@fortawesome/free-solid-svg-icons";
 import mylogo from './mylogo.svg'
 import Menu from './Menu';
 import SearchBar from "./SearchBar";
@@ -11,8 +11,12 @@ function Heading(props) {
         <div className="row fr col-12" style={{margin:'0px',padding:'0px', bsGutterX:" 0"}}>
             <div className="col-11">
                 <div className="top row">
-                    <div className=" left-icons col-2">
+                    <div className=" left-icons col-3">
+                        {props.logedin ? 
                         <FontAwesomeIcon className="ficon" icon={faUser}size="2x" />
+                         :<FontAwesomeIcon onClick={props.showLogin} className="ficon" icon={faRightToBracket}size="2x"  />}
+                        
+                        
                         <FontAwesomeIcon className="ficon" icon={faCartShopping}size="2x" />
                     </div>
                     <div className="col-2"></div>

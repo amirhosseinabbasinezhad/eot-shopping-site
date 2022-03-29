@@ -1,6 +1,6 @@
-import Product from "./Product";
+import ProductBox from "./ProductBox";
 import InfiniteCarousel from 'react-leaf-carousel';
-function Products() {
+function ProductBoxes() {
     return (<div className="products-slide">
       <h3>محصولات</h3>
       <InfiniteCarousel
@@ -31,42 +31,42 @@ function Products() {
     ]}
     dots={false}
     showSides={true}
-    sidesOpacity={.5}
+    sidesOpacity={.3}
     sideSize={0.1}
     slidesToScroll={1}
     slidesToShow={6}
     scrollOnDevice={true}
   >
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     <div>
-    <Product />
+    <ProductBox />
     </div>
     </InfiniteCarousel>
     </div>
      );
 }
 
-export default Products;
+export default ProductBoxes;

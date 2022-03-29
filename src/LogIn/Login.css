@@ -1,0 +1,29 @@
+.form-group label{
+    text-align: right;
+    float: right;
+    margin: 10px 0 10px 0;
+}
+.modoleImage{
+    width: 450px;
+    padding: 0;
+    margin: 0;
+}
+.modolebtn{
+    float: right;
+    margin: 20px 0;
+}
+.modalheder{
+    color: #fff;
+    background-color: rgb(2, 49, 255);
+}
+.forgot-password{
+    margin: 20px 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
