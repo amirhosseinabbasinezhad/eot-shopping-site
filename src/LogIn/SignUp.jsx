@@ -34,7 +34,7 @@ keyboard={false}
                  <input type="email" className="form-control" placeholder="email" />
              </div>
              <div className="form-group">
-                 <label>تلفن همراه</label>
+                 <label> کد پستی</label>
                  <input type="number" className="form-control" placeholder="Number" />
              </div>
              <div className="form-group">

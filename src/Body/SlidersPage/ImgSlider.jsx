@@ -1,8 +1,8 @@
 import InfiniteCarousel from 'react-leaf-carousel';
-import googleHome1 from './images/googlehome.png';
-import googleHome2 from './images/homegoogle.png';
-import googleHome3 from './images/googleassistant.png';
-import alexa from './images/alexa.png';
+import googleHome1 from '../images/googlehome.png';
+import googleHome2 from '../images/homegoogle.png';
+import googleHome3 from '../images/googleassistant.png';
+import alexa from '../images/alexa.png';
 function ImgSlidr() {
   return (<div className="image-slide">
     <InfiniteCarousel

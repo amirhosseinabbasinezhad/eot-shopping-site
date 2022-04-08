@@ -1,0 +1,59 @@
+.zoomimage:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .imagepro{
+      width: 100%;
+  }
+.price{
+    margin-top: 95px;
+    margin-left: 15px;
+    padding: 15px;
+    background-color: #f0eeee;
+    border-radius: 8px;
+}
+.staricon{
+    color: #ffea2f;
+    float: right;
+}
+.rate h6{
+    float: left;
+}
+  .productBody{
+    padding-top: 5px;
+    position: absolute;
+    top: 165px;
+    left: 0px;
+    right: 0px;
+  }
+  .products-slidee{
+      background-color: #fff;
+  }
+.productBody h2,h3,h4,h5{
+    text-align: right;
+    line-height: 1.6;
+}
+table{
+    border-radius: 5px;
+    width: 80%;
+    float: right;
+}
+table tr{
+    padding: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    text-align: left;
+}
+table th {
+    padding: 10px;
+    background-color: #ebebeb;
+    text-align: right;
+}
+hr {
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #bbbbbb;
+    line-height: 19px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}

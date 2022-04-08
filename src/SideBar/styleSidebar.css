@@ -3,12 +3,12 @@
     height: 100%;
     width: 250px;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 3s;
     padding-top: 60px;
   }
   
@@ -20,7 +20,7 @@
     font-size: 27px;
     color: #818181;
     display:block;
-    transition: 0.3s;
+    transition: 3s;
   }
   
   .sidebar a:hover {
@@ -36,8 +36,8 @@
 
   }
   #main {
-    transition: margin-left .5s;
-    padding: 16px;
+    transition: margin-left 3s;
+    
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
