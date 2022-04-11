@@ -35,7 +35,11 @@ keyboard={false}
              </div>
              <div className="form-group">
                  <label> کد پستی</label>
-                 <input type="number" className="form-control" placeholder="Number" />
+                 <input type="number" className="form-control" placeholder="zip code" />
+             </div>
+             <div className="form-group">
+                 <label>تلفن همراه</label>
+                 <input type="number" className="form-control" placeholder="phone Number" />
              </div>
              <div className="form-group">
                  <label>رمز عبور</label>

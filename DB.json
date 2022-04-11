@@ -117,6 +117,31 @@
                 "پریز هوشمند"
             ]
         }
-        
+    ],
+    "users":[
+        {
+            "FirstName":"AmirHossein",
+            "lastName":"AbbasiNezhad",
+            "Email":"amirabbasi@gmail.com",
+            "zip code":"1857318951",
+            "userName":"abbasiamir",
+            "Password":"!A13790920"
+        },
+        {
+            "FirstName":"Mahdi",
+            "lastName":"Karimi",
+            "Email":"mahdikarimi@gmail.com",
+            "zip code":"1895018562",
+            "userName":"mmkkarimi",
+            "Password":"@AAmm2678"
+        },
+        {
+            "FirstName":"admin",
+            "lastName":"admin",
+            "Email":"admin",
+            "zip code":"admin",
+            "userName":"admin",
+            "Password":"admin"
+        }
     ]
 }

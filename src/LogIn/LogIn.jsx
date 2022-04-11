@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleUser} from "@fortawesome/free-solid-svg-icons";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Login.css"
@@ -18,7 +17,7 @@ function LogIn(props) {
     
     return (<>
     {hasAcc
-     ? <SignIn show={props.show} onHide={props.onHide} signup={signUpMode}/>
+     ? <SignIn userinput={(event)=>props.userinput(event)} checkUser={(event)=>props.checkUser(event)} show={props.show} onHide={props.onHide} signup={signUpMode}/>
      : <SignUp show={props.show} onHide={props.onHide} signin={signInMode} />}
      
     
