@@ -5,6 +5,12 @@ import Col from 'react-bootstrap/Col'
 
 
 function PriceBox(props) {
+    
+    function addToCart(e) {
+    
+        localStorage.setItem("cart",JSON.stringify(e.target.id));
+        
+      }
     return (<>
             <Row>
                     <Col xl={11} lg={11}>
@@ -24,7 +30,7 @@ function PriceBox(props) {
                         <Row className="justify-content-center">
                             <Col xl={11} lg={11}>
                             <div className="d-grid gap-2">
-                            <Button dkp="11226" className="addcartbtn"size="lg" variant="outline-danger"> افزودن به سبد خرید</Button>
+                            <Button onClick={(e)=>addToCart(e)} id={props.id} className="addcartbtn"size="lg" variant="outline-danger"> افزودن به سبد خرید</Button>
                             </div>
                             </Col>
                         </Row>

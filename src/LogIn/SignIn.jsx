@@ -26,7 +26,7 @@ keyboard={false}
 <Modal.Body>
 
   <div className="d-flex justify-content-between">
-      {forgetpass ? <PasswordForget onHide={props.onHide} /> : <WithPassword userinput={(event)=>props.userinput(event)} checkUser={(event)=>props.checkUser(event)}onHide={props.onHide} signup={props.signup} fPass={forgetPass}/>}
+      {forgetpass ? <PasswordForget onHide={props.onHide} /> : <WithPassword onHide={props.onHide} signup={props.signup} fPass={forgetPass}/>}
       
       
     <img className="modoleImage" src={iothome} alt="" />

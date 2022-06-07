@@ -16,6 +16,9 @@ import PriceBox from "./PriceBox";
 import InfoBox from "./InfoBox";
 import ImgBox from "./ImgBox";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
 function Product(props) {
     return (<>
     <Container fluid>
@@ -23,8 +26,9 @@ function Product(props) {
         
         <Row>
             <Col xl={3} lg={3}>
+            <FontAwesomeIcon  className="backicon" icon={faArrowLeft}  size="2x"/>
                 <div className="price">
-                    <PriceBox price={props.product.price}/>
+                    <PriceBox id={props.product.id} price={props.product.price}/>
                 </div>
             </Col>
             <Col xl={5} lg={5}>

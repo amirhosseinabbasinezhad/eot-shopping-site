@@ -60,19 +60,3 @@
     float: right;
     padding: 5px 0;
   }
-
-  .addicon{
-    color: #ff533c;
-    font-size: 20px;
-    border: 1px solid #ff533c;
-    float: left;
-    background: #fff;
-    border-radius: 3px;
-    padding: 5px 4px;
-  }
-  .addicon:hover{
-    color: #fff;
-    background: #ff6f53;
-    text-decoration: none;
-  }
-  

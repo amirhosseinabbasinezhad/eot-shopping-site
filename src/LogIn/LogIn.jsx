@@ -17,7 +17,7 @@ function LogIn(props) {
     
     return (<>
     {hasAcc
-     ? <SignIn userinput={(event)=>props.userinput(event)} checkUser={(event)=>props.checkUser(event)} show={props.show} onHide={props.onHide} signup={signUpMode}/>
+     ? <SignIn show={props.show} onHide={props.onHide} signup={signUpMode}/>
      : <SignUp show={props.show} onHide={props.onHide} signin={signInMode} />}
      
     

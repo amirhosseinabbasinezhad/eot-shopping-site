@@ -3,9 +3,21 @@
   }
   .imagepro{
       width: 100%;
+
   }
+  .backicon{
+    margin-left: 20px;
+    padding:10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    position:static;
+  }
+  .backicon:hover{
+    color: rgb(56, 82, 254);
+    border: 2px solid  rgb(56, 82, 254);
+}
 .price{
-    margin-top: 95px;
+    margin-top: 45px;
     margin-left: 15px;
     padding: 15px;
     background-color: #f0eeee;
