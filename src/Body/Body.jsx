@@ -4,7 +4,7 @@ import Servises from "./servises";
 import ImgSlidr from './SlidersPage/ImgSlider'
 import Product from "./ShowProduct/product";
 import React ,{useState,useEffect} from "react";
-import { render } from "@testing-library/react";
+import PORT from "../../server";
 function Body() {
     const [curentProduct ,setCurentProduct]=useState(0)
     const [products ,setProducts]=useState([]);
@@ -16,7 +16,7 @@ function Body() {
     },[curentProduct])
     useEffect(()=>{
    
-        fetch("http://localhost:3001/products")
+        fetch(`http://localhost:${PORT}/products`)
         .then(res=>res.json())
         .then(response=>{setProducts(response)})
        
